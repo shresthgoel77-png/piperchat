@@ -15,16 +15,14 @@
 
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
-
 ## 📖 Table of Contents
-* [About the Project](#-about-piperchat)
-* [Key Features](#-key-features)
-* [Visual Showcase](#-visual-showcase)
-* [Tech Stack](#-tech-stack)
-* [Getting Started](#-how-to-use)
-* [Documentation](#-documentation)
-* [License](#-license)
-* [Contact](#-contacts)
+* [About the Project](#about)
+* [Key Features](#features)
+* [Visual Showcase](#visual-showcase)
+* [Tech Stack](#tech-stack)
+* [Documentation](#documentation)
+* [License](#license)
+* [Contact](#contacts)
 ---
 
 <a name="about"></a>
