@@ -23,7 +23,6 @@
 * [Visual Showcase](#visual-showcase)
 * [Tech Stack](#tech-stack)
 * [Documentation](#documentation)
-* [License](#license)
 * [Contact](#contacts)
 ---
 
@@ -227,13 +226,6 @@ We use **GitHub Actions** to maintain code quality. Every pull request is automa
 *   **Successful Builds:** Verified for both Frontend & Backend.
 *   **Linting Standards:** Automated checking via ESLint.
 *   **Dependency Integrity:** Ensures all packages are secure and functional.
-
----
-
-<a name="license"></a>
-## ⚖️ License
-
-Distributed under the **MIT License**. See the `LICENSE` file for more information.
 
 ---
 
