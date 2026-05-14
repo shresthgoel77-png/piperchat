@@ -1,246 +1,207 @@
-<p align="center">
-  <img width="2172" height="724" alt="ChatGPT Image May 12, 2026, 07_15_49 PM" src="https://github.com/user-attachments/assets/93d60fbb-a14a-408d-bbb7-96ff031e0a1e" />
+<img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/75162fe3-79d3-46d7-806f-9f8e78720fe9" />
+
+<h1 align="center" id="chaatbazaar">ChaatBazaar🍴 </h1>
+
 </p>
 
-<h1 align="center"> PiperChat</h1>
+ChaatBazaar is an interactive online street food platform dedicated to bringing authentic Indian snacks like samosa, kachori, and pani puri closer to food lovers within a 5 km delivery radius. It helps users discover regional delicacies often overshadowed by global food trends.
 
 <p align="center">
-  <strong>A Discord-style real-time chat app</strong>
-  <br>
-  with DMs, servers/channels, presence, and email OTP auth built with Vite + Tailwind and an Express + MongoDB + Socket.IO backend.
-</p>
-<p align="center">
-  <a href="https://youtu.be/jZi9OCY6gsk">Watch the demo video</a>
+  <a href="https://patelharsh2006.github.io/ChaatBazaar/">Live Link</a>
 </p>
 
-<a name="readme-top"></a>
-
-<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=FF7B54" width="100%">
 
 ## 📖 Table of Contents
-* [About the Project](#about)
-* [Key Features](#features)
-* [Visual Showcase](#visual-showcase)
-* [Tech Stack](#tech-stack)
-* [Documentation](#documentation)
+* [About the Project](#-about-the-project)
+* [Key Features](#-key-features)
+* [Visual Showcase](#-visual-showcase)
+* [Tech Stack](#-tech-stack)
+* [Documentation](#-documentation)
 * [Contact](#contacts)
----
 
-<a name="about"></a>
-## ✨ About PiperChat
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=FF7B54" width="100%">
 
-PiperChat is more than just a chat app; it's a full-scale demonstration of modern web capabilities. Designed to mimic the seamless experience of Discord, it bridges the gap between complex backend architecture and a "pixel-perfect" frontend. 
+## 🚀 About the Project <a name="-about-the-project"></a>
+**ChaatBazaar** is a responsive, mobile-first web application designed to bring the vibrant experience of Indian street food directly to your screens. With location-based delivery checks, intuitive categorization, and a dynamic cart system, it offers a seamless ordering experience tailored for cravings.
 
-Whether you're managing a community through **Servers and Channels** or having a private conversation via **Direct Messages**, PiperChat ensures sub-millisecond delivery using Socket.IO and optimized MongoDB indexing.
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=FF7B54" width="100%">
 
----
+## ✨ Key Features <a name="-key-features"></a>
 
-<a name="features"></a>
-## 🚀 Key Features
+### 🎯 Core Features
+- **Responsive Homepage:** Featuring an eye-catching hero section.
+- **Smart Menu Listing:** Categorized by specific states and food types.
+- **Cart & Checkout System:** Includes a location-based delivery check (strict 5 km radius limit).
+- **Mobile-First Design:** Fully responsive UI for optimal viewing across all devices.
 
-### 💬 Real-Time Messaging
-- **Instant Delivery:** Powered by Socket.IO for a lag-free experience.
-- **Presence Tracking:** See who's online, idle, or offline in real-time.
-- **Unread Indicators:** Never miss a message with smart notification counts.
+### 🤝 Contributor Features (Areas for Expansion)
+- 🌶️ **Spice Level Customization:** Per order modifications.
+- 🎁 **Loyalty & Referrals:** Points system and referral codes.
+- 📍 **Live Order Tracking:** Simulated tracking UI.
+- 🗣️ **Testimonials:** Social proof sections.
+- ✨ **Animations:** Smooth hover effects and page transitions.
+- 🔍 **Search & Filter:** Advanced functionality for finding specific dishes.
+- 🏷️ **Daily Specials:** Automated combo deals and highlights.
 
-### 🏠 Architecture & Organization
-- **Servers & Channels:** Structured communication for different topics.
-- **Direct Messaging:** Secure one-on-one private conversations.
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=FF7B54" width="100%">
 
-### 🔒 Security & User Management
-- **Email OTP Verification:** Robust signup flow ensuring authentic users.
-- **Profile Customization:** Update display names and avatars seamlessly.
-- **Cloud Storage:** High-speed image hosting via Supabase storage buckets.
+## 📸 Visual Showcase <a name="-visual-showcase"></a>
 
-### ⚡ Performance Optimization
-- **Redis Caching:** Optional Upstash integration for ultra-fast data retrieval.
-- **Tailwind v4:** Utilizing the latest CSS engine for high-performance, small-bundle styling.
+| Home Page | Menu View |
+| --- | --- |
+| <img src="https://github.com/user-attachments/assets/2f689e55-c27d-44e7-a489-a2f3cd6d273b" alt="Home Page" width="100%" /> | <img width="3034" height="1408" alt="Gemini_Generated_Image_l3ea2al3ea2al3ea" src="https://github.com/user-attachments/assets/7033986c-c2b1-4616-b7b3-e7a4a497faa6" /> |
 
-<a name="visual-showcase"></a>
-## 📸 Visual Showcase
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=FF7B54" width="100%">
 
-### 🔐 Secure Authentication
-> *A smooth login experience featuring secure Email OTP verification.*
-> <img width="894" height="540" alt="image" src="https://github.com/user-attachments/assets/5d498a0e-602c-4cf0-a73e-7f181488209a" />
-> <img width="606" height="485" alt="image" src="https://github.com/user-attachments/assets/0e090aca-3aa5-4cfd-a378-a982e6a7d27e" />
+## 💻 Tech Stack <a name="-tech-stack"></a>
+Built with modern, lightweight web technologies:
+* <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+* <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+* <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+* <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white" alt="JSON" />
+* <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github-pages&logoColor=white" alt="GitHub Pages" />
 
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=FF7B54" width="100%">
 
-### 📝 Seamless Account Creation
-> *The onboarding flow featuring user registration and the Email OTP verification system to ensure secure access.*
+## 📚 Documentation <a name="-documentation"></a>
 
-<!-- ADD YOUR SIGNUP/ACCOUNT CREATION SCREENSHOT BELOW -->
-> <img width="638" height="501" alt="image" src="https://github.com/user-attachments/assets/3e7d3c17-83b1-419f-985f-df3a503071a7" />
+### 🚨 Important Rules for Contributors
+1. **Theme Consistency:** You **MUST** maintain the Orange theme throughout the website.
+2. **Visual Proof:** Always include **"Before" and "After" screenshots** of the webpage in your Pull Request description.
+3. **Stay Updated:** Sync your fork before creating a new PR to prevent merge conflicts and outdated code.
 
-### 🖥️ Dashboard UI
-> *The main interface featuring the server list, channel navigation, and the primary chat window.*
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=FF7B54" width="100%">
 
-<!-- ADD YOUR DASHBOARD SCREENSHOT BELOW -->
-<img width="1086" height="640" alt="image" src="https://github.com/user-attachments/assets/3401c1c9-d9cd-4edd-9ef7-1f3cf4ac1d66" />
-
-
-<a name="tech-stack"></a>
-## 🛠️ Tech Stack
-
-| Layer | Technology |
-| :--- | :--- |
-| **Frontend** | React, Vite, Tailwind CSS v4 |
-| **Backend** | Node.js (ESM), Express.js |
-| **Real-time** | Socket.IO |
-| **Database** | MongoDB (Atlas) |
-| **Storage** | Supabase |
-| **Caching** | Redis (Upstash) |
-
----
-
-<a name="how-to-use"></a>
-## 🛠️ How to Use
-
-### 1. Prerequisites
-- Node.js (v18+)
-- MongoDB Atlas Account
-- Supabase Project (for avatars)
-
-### 2. Installation
-```bash
-# Clone the repository
-git clone [https://github.com/YourUsername/PiperChat.git](https://github.com/YourUsername/PiperChat.git)
-
-# Install Server dependencies
-cd server && npm install
-
-# Install Frontend dependencies
-cd ../frontend && npm install
-
-## Project structure
-
-- `server/` → Express + MongoDB + Socket.IO API (ESM)
-- `frontend/` → Vite + Tailwind UI
-
-## Quick start
-
-### 1) Install dependencies
-
-```bash
-cd server && npm install
-cd ../frontend && npm install
-```
-
-### 2) Environment variables
-
-- Copy `PiperChat01/.env.example` → `/PiperChat01/.env`
-- Copy `PiperChat01/frontend/.env.example` → `PiperChat01/frontend/.env`
-
-### 3) Run the apps
-
-```bash
-cd server && npm start
-```
-
-```bash
-cd frontend && npm run dev
-```
-
-Frontend runs on `http://localhost:5173`  
-Server runs on `http://localhost:2000`
-
-## Environment variables
-
-### Server (`PiperChat01/.env`)
-
-| Key                                                              | Required | Notes                                  |
-| ---------------------------------------------------------------- | -------: | -------------------------------------- |
-| `MONGO_URI`                                                      |       ✅ | MongoDB connection string              |
-| `ACCESS_TOKEN`                                                   |       ✅ | JWT secret                             |
-| `PORT`                                                           |       ❌ | Default `2000`                         |
-| `default_profile_pic`                                            |       ✅ | Used on signup                         |
-| `MAIL_USER` / `MAIL_PASS`                                        |       ✅ | Gmail App Password flow                |
-| `OAUTH_CLIENTID` / `OAUTH_CLIENT_SECRET` / `OAUTH_REFRESH_TOKEN` |       ❌ | Optional OAuth2 email sending          |
-| `REDIS_URL`                                                      |       ❌ | Upstash URL supported (`rediss://...`) |
-| `REDIS_CACHE_TTL_SECONDS`                                        |       ❌ | Default `30`                           |
-
-### Frontend (`PiperChat01/frontend/.env`)
-
-| Key                           | Required | Notes                                  |
-| ----------------------------- | -------: | -------------------------------------- |
-| `REACT_APP_URL`               |       ✅ | Backend URL (`http://localhost:2000`)  |
-| `REACT_APP_front_end_url`     |       ✅ | Frontend URL (`http://localhost:5173`) |
-| `REACT_APP_SUPABASE_URL`      |       ❌ | For avatar uploads                     |
-| `REACT_APP_SUPABASE_ANON_KEY` |       ❌ | For avatar uploads                     |
-| `REACT_APP_SUPABASE_BUCKET`   |       ❌ | For avatar uploads                     |
-
-## Scripts
-
-### Server
-
-- `npm start` → runs with nodemon
-
-### Frontend
-
-- `npm run dev` → Vite dev server
-- `npm run build` → production build
-- `npm run lint` → ESLint
-
-## CI checks
-
-This repository uses GitHub Actions to run automated checks on every pull
-request and every push to `main`.
-
-The workflow lives at `.github/workflows/ci.yml` and currently runs:
-
-- Frontend dependency install with `npm ci`
-- Frontend linting with `npm run lint`
-- Frontend production build with `npm run build`
-- Backend dependency install with `npm ci`
-
-These checks help contributors catch broken builds, lint errors, and dependency
-issues before maintainers review the pull request.
-
-To run the same checks locally:
-
-```bash
-cd frontend
-npm ci
-npm run lint
-npm run build
-```
-
-```bash
-cd server
-npm ci
-```
-
-Backend tests are not included yet because the backend does not currently have a
-test script. Once backend tests are added, the CI workflow can be extended to run
-`npm test` inside `server/`.
+## 📥 Submitting a Pull Request for First time :
 
 
-<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+Follow these steps to contribute your changes to **ChaatBazaar**:
 
-<a name="documentation"></a>
-## 📄 Documentation
+1. **🌟 Star & Fork the Repository**  
+   Click the **“Fork”** the repo to create your own copy:  
+   👉 [https://github.com/PatelHarsh2006/ChaatBazaar](https://github.com/PatelHarsh2006/ChaatBazaar)
 
-For a detailed breakdown of the API endpoints and component structure, please refer to our [Wiki](https://github.com/0rigin-c0de/PiperChat01/wiki) (Coming Soon).
 
-### 🛠️ CI/CD Workflow
-We use **GitHub Actions** to maintain code quality. Every pull request is automatically checked for:
-*   **Successful Builds:** Verified for both Frontend & Backend.
-*   **Linting Standards:** Automated checking via ESLint.
-*   **Dependency Integrity:** Ensures all packages are secure and functional.
+2. **📥 Clone Your Fork**  
+   Use the following command to clone your forked repository to your local machine:
+   ```bash
+   git clone https://github.com/PatelHarsh2006/ChaatBazaar.git
+   ```
 
----
+
+ 3. Create a Branch
+    Navigate to the project directory and create a new branch for your changes:
+
+    ```bash
+      cd ChaatBazaar
+      git checkout -b my-feature-branch
+    ```
+
+
+ 4. Make Changes
+     Fix bugs or improve UI/UX as needed.
+
+
+ 5. Commit Your Changes
+    Use a meaningful commit message:
+
+    ```bash
+    git add .
+    git commit -m "📦 [Feature Add] Add XYZ website project"
+    ```
+
+
+ 6. Push Your Changes
+    Push your branch to your GitHub fork:
+
+    ```bash
+    git push origin my-feature-branch
+    ```
+
+
+ 7. Submit a Pull Request
+
+    Go to your fork on GitHub.
+
+    Click "Compare & pull request".
+
+    Add a descriptive title using one of the prefixes: [UI], [UX], [Feature Add].
+
+    Link the related issue (if any) and clearly describe your changes.
+
+
+## Important points for Contributors to keep in Mind :
+
+1. Maintain the Orange theme, throughout the Wesbite.
+
+2. Include "Before" and "After" screenshots of the webpage for all changes, in the Pull Request description.
+
+3. If the original repository gets updated after you fork it, you should sync your fork before creating a new PR. This prevents merge conflicts and outdated code.<br>
+So always follow the below steps, before any Pull request, for the corresponding Branch, to keep the repository upto date :
+
+
+
+## Method 1: Using Git Commands (Terminal Users)
+
+### Step - 1 : Fetch latest changes from original repo
+   ```bash
+   git fetch upstream
+   ```
+
+
+
+
+### Step - 2 : Merge changes into your local main branch
+   ```bash
+   git merge upstream/main
+   ```
+
+
+
+### Step - 3 : Push updated code to your fork
+   ```bash
+   git push origin main
+   ```
+
+
+
+## Method 2:  If using Github Desktop app :
+
+### Step - 1: 
+1. Go to your forked repository on GitHub webpage
+2. Click "Sync fork" button (if visible)
+3. Click "Update branch"
+
+
+
+
+### Step - 2: 
+
+In Github Desktop app :
+
+1. Open GitHub Desktop  
+2. Select the repository: **ChaatBazaar**  
+3. Click **Fetch origin**  
+4. Click **Pull origin** (if visible)
+   
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=FF7B54" width="100%">
+
+## 📜 License <a name="-license"></a>
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/PatelHarsh2006/ChaatBazaar/blob/main/LICENSE) file for details.
 
 <a name="contacts"></a>
 ## 🤝 Contacts
 
 | Source | Link |
 | :--- | :--- |
-| **GitHub Profile** | [0rigin-c0de](https://github.com/0rigin-c0de) |
-| **Project Repository** | [PiperChat01](https://github.com/0rigin-c0de/PiperChat01) |
+| **GitHub Profile** | [PatelHarsh2006](https://github.com/PatelHarsh2006) |
+| **Project Repository** | [ChaatBazar](https://github.com/PatelHarsh2006/ChaatBazaar) |
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=FF7B54" width="100%">
 
 <p align="right">
-  <a href="#readme-top">⬆️ Back to Top</a>
+  <a href="#chaatbazaar">⬆️ Back to Top</a>
 </p>
 
 <p align="center">
