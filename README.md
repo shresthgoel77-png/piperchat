@@ -209,3 +209,9 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
   <br>
   Made with ❤️ for the 🌍
 </p>
+<p align="center">
+  <img 
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB347,25:FF8C00,50:FF6200,75:FF4D00,100:FF2D00&height=100&section=footer&animation=fadeIn" 
+    width="100%" 
+  />
+</p>
